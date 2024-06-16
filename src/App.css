@@ -1,0 +1,309 @@
+
+.offer-section {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.primary-btn{
+  padding: 16px 54px;
+  font-family: 'satoshi';
+  color:#ffffff;
+  background-color: #000;
+  border-radius: 40px;
+  font-weight: medium;
+  font-size: 16px;
+}
+
+.primary-btn:hover{
+  cursor: pointer;
+  box-shadow: #000;
+  filter: drop-shadow(20px 30px 20px 30px);
+}
+
+.heading{
+  font-family: 'clash display';
+  font-size: 54px;
+  font-weight: bold;
+  width: 500px;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 70px;
+}
+
+.paraa{
+  font-size: 16px;
+  font-family: 'satoshi';
+  width: 500px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.clicker{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.offer-section {
+  display: flex;
+  align-items: center;  /* Center items vertically */
+  justify-content: space-between;  /* Space out items horizontally */
+  background-color: #000;  /* Black background */
+  color: #fff;  /* White text color */
+  padding: 10px 10px;
+  font-family: 'Satoshi', sans-serif;
+  font-size: 12px;
+  position: relative;
+}
+
+
+.offer-message {
+  flex-grow: 1;  /* Allow the message to grow and take up available space */
+  text-align: center;  /* Center the message */
+  margin: 0;
+}
+.close-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.hero-section {
+  padding: 50px 50px 0px 50px;
+  background-color: #f2f0f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Adjust for better alignment */
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.brands-section {
+  padding: 0px;
+  background-color: #f8f8f8;
+}
+
+.brands {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  padding:50px;
+  justify-content: space-around; /* Adjust for better alignment */
+  align-items: center;
+  gap: 20px;
+
+}
+
+.brand-image {
+  max-width: 100px; /* Adjust size as needed */
+  height: auto;
+  margin: 0 10px;
+}
+
+.logo{
+  font-size: 32px;
+  font-family: 'clash display';
+  font-weight: bold;
+  cursor: none;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  font-family: 'satoshi';
+  gap: 50px;
+  justify-content:center;
+  align-items: center; 
+  list-style-type: none;
+}
+
+.nav li:hover {
+  text-decoration: underline;
+    /* Underline text on hover */
+  cursor: pointer;
+}
+
+.search-input{
+  background-color: #F0F0F0;
+  padding: 12px 150px 12px 12px;
+  border: none;
+  font-family: 'satoshi';
+  border-radius: 20px;
+}
+
+.search-input:hover{
+  cursor:text ;
+}
+
+.cart{
+  background-color: transparent;
+  border: none;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+}
+
+
+.New-Arrivals{
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title{
+  font-size: 36px;
+  font-family: 'clash display';
+  font-weight: bold;
+  justify-content: center;
+}
+
+
+.card-image{
+  width: 260px;
+  height: 264px;
+  object-fit: cover;
+}
+
+.card-title{
+  font-size:16px ;
+  font-family: 'satoshi';
+  font-weight: bold;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content{
+  flex-direction: column;
+  gap: 0px;
+}
+
+
+.text2{
+  font-size: 16px;
+  font-family: satoshi;
+}
+
+.text3{
+  font-size: 20px;
+  font-family: satoshi;
+  font-weight: bold;
+}
+
+.secondary-btn {
+  padding: 16px 54px;
+  border: 2px solid #E8E8E8; /* Added width and style for the border */
+  font-family: 'satoshi';
+  color: #000; /* Removed 1px */
+  background-color: #ffffff;
+  border-radius: 40px;
+  font-weight: bold; /* 'medium' is not valid, use 500 for medium weight */
+  font-size: 16px;
+}
+
+.secondary-btn:hover {
+  cursor: pointer;
+}
+
+.seperator{
+  width: 80%;
+  border: 1px solid #E8E8E8;
+  margin: 0 auto;
+}
+
+.Dressstyle{
+  background-color: #F0F0F0;
+  margin: 50px;
+  padding: 40px;
+  border-radius: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  gap: 30px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  gap: 25px;
+}
+
+.grid-item img {
+  width: auto;
+  height: 255px; /* Adjust the max width as needed */
+  border-radius: 10px; /* Optional: to give images rounded corners */
+}
+
+.Newsletter{
+  background-color: #000;
+  margin: 50px;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.newsletter-opns{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.offerhead{
+  font-size: 32px;
+  font-family: 'clash display';
+  font-weight: bold;
+  color: #E8E8E8;
+  width: 450px;
+}

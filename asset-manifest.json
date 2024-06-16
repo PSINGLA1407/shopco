@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/shopco/static/css/main.a9b6953c.css",
+    "main.js": "/shopco/static/js/main.17f149ce.js",
+    "static/js/453.fbf233c8.chunk.js": "/shopco/static/js/453.fbf233c8.chunk.js",
+    "static/media/itemimage.png": "/shopco/static/media/itemimage.3f76c10c3ee4a53dbd3e.png",
+    "static/media/hero-image.png": "/shopco/static/media/hero-image.38794cc2d3bac0e36501.png",
+    "static/media/party.png": "/shopco/static/media/party.4112290126da0c13f3f8.png",
+    "static/media/formal.png": "/shopco/static/media/formal.faf75e9ba54ee7546a76.png",
+    "static/media/casual.png": "/shopco/static/media/casual.79353cd7e6e3594a57f3.png",
+    "static/media/gym.png": "/shopco/static/media/gym.6eb0cfe7966aa1bd796e.png",
+    "index.html": "/shopco/index.html",
+    "main.a9b6953c.css.map": "/shopco/static/css/main.a9b6953c.css.map",
+    "main.17f149ce.js.map": "/shopco/static/js/main.17f149ce.js.map",
+    "453.fbf233c8.chunk.js.map": "/shopco/static/js/453.fbf233c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9b6953c.css",
+    "static/js/main.17f149ce.js"
+  ]
+}
